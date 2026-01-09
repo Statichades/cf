@@ -1,5 +1,25 @@
+# Core dependencies
 Flask==2.3.3
 flask-cors==4.0.0
+Werkzeug==2.3.7
+
+# HTTP requests
 requests==2.31.0
+
+# Gemini API (use lighter version)
 google-generativeai==0.3.2
+
+# Image processing (lightweight alternative)
 Pillow==10.1.0
+
+# Email parsing (Python built-in, no extra package needed)
+# imaplib and email are built-in
+
+# Database (built-in)
+# sqlite3 is built-in
+
+# Remove problematic packages:
+# - setuptools (already installed)
+# - imaplib2 (use built-in imaplib)
+# - opencv-python (too heavy, use PIL only)
+# - numpy (not needed without opencv)
