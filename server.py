@@ -22,7 +22,7 @@ IMAP_SERVER = "imap.gmail.com"
 TARGET_LABEL = "cfl"
 DB_FILE = "termux_bot.db"
 ALARM_FILE = "alarm.mp3"
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # Get from: https://makersuite.google.com/app/apikey
+GEMINI_API_KEY = "AIzaSyDnf7reRzJrQnyNTlBfJUifKexlyVDdRWw"  # Get from: https://makersuite.google.com/app/apikey
 # ---------------------
 
 current_alarm_process = None
