@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cf
+    runtime: python
+    env: python
+    pythonVersion: 3.11.9
