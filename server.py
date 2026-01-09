@@ -12,8 +12,8 @@ app = Flask(__name__)
 CORS(app)
 
 # --- CONFIGURATION ---
-EMAIL_USER = "shaprhades2004@gmail.com"
-EMAIL_PASS = "yyro ijcv cuxe akhj"
+EMAIL_USER = "sharphades2004@gmail.com"
+EMAIL_PASS = "gedh tkjn bdwm sqfr"
 IMAP_SERVER = "imap.gmail.com" #do not change this unless you have your own imap server
 TARGET_LABEL = "cfl" #do not change this unless you want an specific label
 DB_FILE = "termux_bot.db" #do not change this
