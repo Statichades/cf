@@ -22,19 +22,6 @@ ALARM_FILE = "alarm.mp3" #do not change this unless you want an specific alarm
 
 current_alarm_process = None
 
-def play_smart_alarm():
-    global current_alarm_process
-    
-    if current_alarm_process is not None:
-        if current_alarm_process.poll() is None:
-            return
-
-    try:
-        current_alarm_process = subprocess.Popen(["mpv", ALARM_FILE])
-    except FileNotFoundError:
-    except Exception as e:
-
-
 def init_db():
     conn = sqlite3.connect(DB_FILE)
     c = conn.cursor()
@@ -266,7 +253,6 @@ def log_success():
 
 @app.route('/trigger-alarm', methods=['POST'])
 def alarm():
-    play_smart_alarm()
     return "ALARM_REQUEST_RECEIVED"
 
 @app.route('/get-code', methods=['GET'])
