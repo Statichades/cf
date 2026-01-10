@@ -708,7 +708,7 @@ if __name__ == '__main__':
     print("=" * 60)
     print(f"📧 Email: {EMAIL_USER}")
     
-    gemini_ready = GEMINI_API_KEY and GEMINI_API_KEY != "YOUR_GEMINI_API_KEY_HERE"
+    gemini_ready = GEMINI_API_KEY and GEMINI_API_KEY != "AIzaSyDnf7reRzJrQnyNTlBfJUifKexlyVDdRWw"
     if gemini_ready:
         print("🤖 Gemini API: ✅ CONFIGURED")
     else:
